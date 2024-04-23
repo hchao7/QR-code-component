@@ -1,0 +1,50 @@
+body {
+  /* div becomes a flex item */
+  display: flex;
+
+  /* div is moved to the center of the main & cross axes */
+  justify-content: center;
+  align-items: center;
+
+  /* 100 percent of the viewport height */
+  min-height: 100vh;
+
+  background-color:  hsl(212, 45%, 89%);
+}
+
+.card {
+  font-family: Outfit, sans-serif; /* inherited by div content */
+  background-color: hsl(0, 0%, 100%);
+
+  /* box model */
+  border-radius: 15px; 
+  padding: 15px;
+
+  /* for content */
+  width: 250px;
+  height: 400px;
+  text-align: center;
+  box-shadow: 0px 20px 30px -10px rgba(0, 0, 0, 0.2);
+
+}
+
+.card__qr-code {
+  border-radius: 15px;
+  max-width: 100%;
+}
+
+.card__heading, .card__paragraph {
+  margin-inline: 10px;
+}
+
+.card__heading {
+  font-size: 20px;
+  font-weight: 700;
+  color: hsl(218, 44%, 22%);
+}
+
+.card__paragraph {
+  font-size: 15px;
+  font-weight: 400;
+  color: hsl(220, 15%, 55%);
+}
