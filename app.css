@@ -1,50 +1,77 @@
+/*
+  === Reset Styles ===
+  Josh's Custom CSS Reset
+  https://www.joshwcomeau.com/css/custom-css-reset/
+*/
+* {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+}
+
 body {
-  /* div becomes a flex item */
-  display: flex;
-
-  /* div is moved to the center of the main & cross axes */
-  justify-content: center;
-  align-items: center;
-
-  /* 100 percent of the viewport height */
-  min-height: 100vh;
-
-  background-color:  hsl(212, 45%, 89%);
+  -webkit-font-smoothing: antialiased;
 }
 
-.card {
-  font-family: Outfit, sans-serif; /* inherited by div content */
-  background-color: hsl(0, 0%, 100%);
-
-  /* box model */
-  border-radius: 15px; 
-  padding: 15px;
-
-  /* for content */
-  width: 250px;
-  height: 400px;
-  text-align: center;
-  box-shadow: 0px 20px 30px -10px rgba(0, 0, 0, 0.2);
-
-}
-
-.card__qr-code {
-  border-radius: 15px;
+img {
+  display: block;
   max-width: 100%;
 }
 
-.card__heading, .card__paragraph {
-  margin-inline: 10px;
+p, h2 {
+  overflow-wrap: break-word;
+}
+
+/* My CSS */
+body {
+  /* Layout */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+
+  background-color: #D5E1EF;
+}
+
+.card {
+  /* Layout */
+  width: 320px;
+  height: 497px;
+
+  /* Typography */
+  text-align: center;
+  font-family: Outfit, sans-serif;
+
+  /* Visual */
+  border-radius: 20px;
+  background-color: #FFFFFF;
+  box-shadow: 0px 25px 25px rgba(0, 0, 0, 0.0477);
+}
+
+.card__qr-code {
+  width: 288px;
+  height: 288px;
+  margin: 16px 16px 24px 16px;
+  border-radius: 10px;
 }
 
 .card__heading {
-  font-size: 20px;
-  font-weight: 700;
-  color: hsl(218, 44%, 22%);
+  width: 288px;
+  height: 56px;
+  margin: 16px;
+  font-size: 22px;
+  color: #1F314F;
 }
 
 .card__paragraph {
+  width: 256px;
+  height: 57px;
+  margin: 0px 32px 40px 32px;
   font-size: 15px;
-  font-weight: 400;
-  color: hsl(220, 15%, 55%);
+  color: #7D889E;
+  letter-spacing: 0.19px;
 }
+
+/*# sourceMappingURL=app.css.map */
