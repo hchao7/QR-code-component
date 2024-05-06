@@ -22,7 +22,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [https://www.frontendmentor.io/solutions/qr-code-component-with-flexbox-bem-rLGuYuTnNw]
 - Live Site URL: [https://hchao7.github.io/QR-code-component/]
 
 ## My process
@@ -46,7 +46,7 @@ I also learned about the BEM methodology. I know this is a very simple and small
 /* Elements */
 .card__qr-code {}
 .card__heading {}
-.card__paragraph {}
+.card__sub-heading {}
 ```
 
 ### Continued development

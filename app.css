@@ -20,7 +20,7 @@ img {
   max-width: 100%;
 }
 
-p, h2 {
+h1, h2 {
   overflow-wrap: break-word;
 }
 
@@ -65,11 +65,12 @@ body {
   color: #1F314F;
 }
 
-.card__paragraph {
+.card__sub-heading {
   width: 256px;
   height: 57px;
   margin: 0px 32px 40px 32px;
   font-size: 15px;
+  font-weight: normal;
   color: #7D889E;
   letter-spacing: 0.19px;
 }
