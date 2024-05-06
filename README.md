@@ -23,7 +23,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 ### Links
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://hchao7.github.io/QR-code-component/)
+- Live Site URL: [https://hchao7.github.io/QR-code-component/]
 
 ## My process
 
@@ -35,7 +35,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### What I learned
 
-I learned that it can be very helpful to start out with a CSS reset. I used Josh Comeau's CSS reset, which "undos" certain browser defaults. For example, `box-sizing: content-box` is set to `border-box`, which makes CSS much easier to work with. 
+I learned that it can be helpful to start out with a CSS reset. I used Josh Comeau's CSS reset, which "undos" certain browser defaults. For example, `box-sizing: content-box` is set to `border-box`, which makes CSS much easier to work with. 
 
 I also learned about the BEM methodology. I know this is a very simple and small project to be applying a methodology to, but since there are so many ways to style a page, I thought following a methodology might guide my planning. 
 
@@ -48,8 +48,6 @@ I also learned about the BEM methodology. I know this is a very simple and small
 .card__heading {}
 .card__paragraph {}
 ```
-
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
 
 ### Continued development
 
